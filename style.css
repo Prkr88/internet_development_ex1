@@ -1,0 +1,94 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin:0;
+}
+
+.navbar-brand{
+	padding-right: 20%;
+	font-size: 30px;
+}
+
+
+.nav_2{
+	font-size: 20px;
+  background-color: #0B0F23;
+  border-color: #0B0F23;
+}
+
+nav ul li{
+  list-style: none;
+	margin: auto;
+  padding-right: 30px;
+  display: inline;
+  justify-content: space-around;
+}
+
+.full-width-div{
+	background-color: #0B0F23;
+	background-image: url("images/tadmit.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+   width: 100%;
+		height: 100vh;
+
+}
+
+.header_name{
+	color: #BCC6BC;
+}
+
+#main_img{
+	position: sticky;
+}
+
+#matan{
+	padding-top: 15%;
+	/* float: left; */
+	text-align: center;
+	padding-left: 200px;
+	font-size: 150px;
+	/* padding-left: 730px; */
+		/* padding-top: 15%; */
+	/* margin: auto; */
+}
+#parker{
+	/* padding-left: 730px; */
+	text-align: center;
+	padding-left: 200px;
+	/* padding-top: 15%; */
+	font-size: 150px;
+		/* margin: auto; */
+}
+
+.type_odd{
+	background-color:#BCC6BC; 
+	text-align: center;
+    /* padding: 0; */
+	height: 100vh;
+}
+
+.type_even{
+	background-color:#7F9DA8; 
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.img-thumbnail{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+	background-color:transparent;
+}
+
+
+.photo{
+	width: 100%;
+	height: 100%;
+}
+
+
+table{
+	margin-left: 28%;
+}
