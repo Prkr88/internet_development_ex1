@@ -36,7 +36,7 @@
 					<a class="nav-link" href="#Like">Like</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#QRCode">QR Code</a>
+					<a class="nav-link" href="#MyPhotos">QR Code</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#QA">Q&A</a>
@@ -74,7 +74,7 @@
 			<div class="container">
 				<h2>Prefered Technologies:</h2>
 				<br>
-				<div class="row">
+				<div id="Like" class="row">
 
 					<div class="col-lg-3 col-xs-6 logo"><img class="img-thumbnail  " src="logos/pythonlogo.png" alt=""></div>
 					<div class="col-lg-3 col-xs-6 logo"><img class="img-thumbnail  " src="logos/javalogo.png" alt=""></div>
@@ -82,6 +82,10 @@
 					<div class="col-lg-3 col-xs-6 logo"><img class="img-thumbnail  " src="logos/clogo.png" alt=""></div>
 				</div>
 			</div>
+			<br >
+			<br>
+			<br>
+			<iframe align="center"src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fprkr88.github.io%2Finternet_development_ex1%2F&width=61&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId" width="100" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 		</div>
 
 		<div id="MyPhotos" class="container-fluid type_even">
@@ -105,6 +109,10 @@
 					<div class="col-lg-3 col-xs-6 "><img class="img-thumbnail  photo" src="images/DSCF1061.JPG" alt=""></div>
 					<div class="col-lg-3 col-xs-6 "><img class="img-thumbnail  photo" src="images/IMG_3870.JPG" alt=""></div>
 				</div>
+				<div class="row">
+						<div class="center"><img class="img-thumbnail photo"  src="images/QR_Code.png" alt="QR"></div>
+				</div>
+				
 			</div>
 		</div>
 
@@ -127,17 +135,22 @@
 			<h1>Q&A</h1>
 			<br>
 			<ol align="left">
-				<li>What are the main differences between web1,web2 and web3? </li>
+				<li><u>What are the main differences between web1,web2 and web3?</u> </li>
 				<ul>
-					<li>Web1 pages were static, which means there was no interaction between the user and the site.</li>
-					<li>In web2 introduced user accounts and profiles , and the users were invited to contibute
+					<li>Web 1.0 pages were static, which means there was no interaction between the user and the site.</li>
+					<li>In web 2.0 introduced user accounts and profiles , and the users were invited to contibute
 						to the content of the site. </li>
-					<li>Web2 enbaled more features like "ask the web" which contribute greatly to users data share. </li>
-					<li>Web3 took the features of Web2 one step ahead, and its about making the internet more indexed
+					<li>Web 2.0 enbaled more features like "ask the web" which contribute greatly to users data share. </li>
+					<li>Web 3.0 took the features of Web2 one step ahead, and its about making the internet more indexed
 						and with unified semantics. Use of AI algorithms became common and users started creating Web API's. </li>
 				</ul>
 				<br>
-				<li>Explain the differances using a "Use-Case":</li>
+				<li><u>Use case: Searching for a new laptop to buy.</u></li>
+				<ul>
+					<li>web 1.0: I will need to know the url's for the sites i want to buy from.</li>
+					<li>web 2.0: I will use a search engine to search for laptops and get similar results and related searches from other users.</li>
+					<li>web 3.0: I will use google assistent or any other personal agent to search and find the best results for me. </li>
+				</ul>
 			</ol>
 		</div>
 
@@ -150,7 +163,7 @@
 				<h1 class="display-4">Any Question? </h1>
 				<p class="lead">Feel free to contact me by eMail!</p>
 				<hr class="my-4">
-				<form>
+				<form action="mailto:matanpr@gmail.com" method="post" enctype="text/plain">
 						<table>
 							<tr>
 								<td width="500px"><label for="sender_mail">Your eMail:</label>
@@ -161,20 +174,16 @@
 							</tr>
 							<tr>
 									<td><br><label for="exampleFormControlTextarea1">Your Message:</label>
-										<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea></td>
+										<input type="textarea" class="form-control" id="exampleFormControlTextarea1" rows="5"></input></td>
 									<td></td>
 							</tr>
 							<tr>
 									<td>
 										<br><br>
-											<button type="submit" class="btn btn-primary">Submit</button></td>
+											<input type="submit" class="btn btn-primary">Submit</button></td>
 									<td></td>
 							</tr>
 						</table>
-					
-								
-
-
 				</form>
 			</div>
 		</div>
